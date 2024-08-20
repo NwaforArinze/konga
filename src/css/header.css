@@ -1,0 +1,101 @@
+.overall-header-container{
+    background-color: #ef0180;
+    color: white;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 90vw;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logo i{
+    font-size: 33px;
+    position: absolute;
+    right: 95px;
+    color: #fba100;
+}
+.logo h1{
+    font-weight: bolder;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+.search input{
+    padding: 13px;
+    position: relative;
+    width: 35vw;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+.search i{
+    position: absolute;
+    background-color: #fba100;
+    font-size: 18px;
+    padding: 9px 18px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    gap: 5px;
+}
+.register a{
+    color: white;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding: 14px 25px;
+    background-color: #33b27b;
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+button i{
+    font-size: 16px;
+    font-weight: bold;
+}
+button p{
+    background-color: white;
+    color: #000;
+    padding: 5px;
+}
+
+.header-two{
+    background-color: #94004F;
+    color: white;
+    font-size: 14px;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px; 
+    width: 90vw;
+    height: 6vh;
+    margin-left: 45px;
+}
+.header-content a{
+    color: white;
+}

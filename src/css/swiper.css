@@ -1,0 +1,72 @@
+  
+.mySwiper {
+  width: 60vw;
+  height: 55vh;
+  margin-left: 75px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  height: 100%;
+  overflow: hidden; 
+}
+  
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+  
+
+ /* Container to hold both the slider and the grid */
+.contain {
+  display: flex;
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+/* Grid container */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px; 
+}
+
+/* Grid items */
+.grid-item {
+  
+  margin: 0 5px 4px;
+}
+
+.grid-item img{
+  height: 194px;
+  width: 210px;
+  border-radius: 10px;
+}
+.btns{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  width: 90vw;
+}
+
+.btns button{
+  padding: 20px 0;
+  width: 200px;
+  color: black;
+  background-color: white;
+  border: 2px white solid;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btns button i{
+  color: #E72D81;
+}

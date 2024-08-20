@@ -1,0 +1,75 @@
+.overall-sponsored {
+    padding: 20px;
+    width: 90vw;
+    margin: auto;
+  }
+  
+  .sponsored-header {
+    margin-bottom: 20px;
+  }
+  
+  .header-container h1 {
+    margin: 0;
+  }
+  
+ .deals-slider {
+    display: flex;
+    overflow-x: auto; 
+    gap: 20px;
+    padding: 10px 0; 
+  }
+  
+  .sponsored-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    flex: 0 0 auto; 
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .sponsored-item img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .sponsored-info {
+    padding: 10px; 
+  }
+  
+  .sponsored-info p {
+    margin: 5px 0;
+  }
+  
+  .sponsored-price-info {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .sponsored-price-info h4 {
+    margin: 0;
+  }
+  
+  .sponsored-price-info p {
+    margin: 0;
+    text-decoration: line-through;
+    color: #999; 
+  }
+  
+  .sponsored-price-info h6 {
+    margin: 0;
+    background-color: #ee9dc8;
+    color: #ef0180;
+    padding: 5px 0;
+    border-radius: 8px;
+  }
+
+  .saved-amount{
+    color: #33b27b;
+    font-size: 14px;
+    padding-top: 10px;
+}

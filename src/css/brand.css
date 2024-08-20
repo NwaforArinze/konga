@@ -1,0 +1,82 @@
+.overall-container{
+    width: 75%;
+    margin: auto;
+}
+
+.brand-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6vh;
+}
+.brand-container h5,
+.brand-container h6 {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.corporate{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    font-weight: bolder;
+    margin-left: -55px;
+    color: #ef0180;
+}
+.corporate span{
+    color: #000000;
+}
+
+.travel i{
+    color: #ef0180;
+    font-size: 15px;
+}
+
+.pay i{
+    color: #ef0180;
+    font-size: 15px;
+}
+.pay span{
+    color: #ef0180;
+}
+.corp {
+    color: #ef0180;
+    font-size: 15px;
+}
+.health {
+    color: #ef0180;
+    font-size: 16px;
+}
+.health span {
+    color: #096faa;
+    font-size: 16px;
+}
+.health i {
+    color: #096faa;
+    font-size: 15px;
+}
+.logistics i {
+    color: #ef0180;
+    font-size: 15px;
+}
+.groceries i {
+    color: #ef0180;
+    font-size: 15px;
+}
+.tele{
+    color: #ef0180;
+}
+.tele span{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.now{
+    color: #ef0180;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.now span{
+    color: #000000;
+    font-size: 14px;
+}
