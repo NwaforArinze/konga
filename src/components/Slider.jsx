@@ -25,8 +25,8 @@ import { BsHandbag } from "react-icons/bs";
 const Slider = () => {
   return (
     <div>
-        <div className='contain'>
-        <div className='swipe'>
+      <div className="slider-container">
+        <div className="swiper-container">
             <Swiper 
             spaceBetween={30}
             centeredSlides={true}
@@ -49,7 +49,7 @@ const Slider = () => {
             <SwiperSlide><img src={sliderSix} alt="" /></SwiperSlide>
         </Swiper>
         </div>
-        <div className="grid">
+        <div className="grid-container">
             <div className="grid-item"><img src={gridOne} alt="" /> </div>
             <div className="grid-item"><img src={gridTwo} alt="" /> </div>
             <div className="grid-item"><img src={gridThree} alt="" /> </div>

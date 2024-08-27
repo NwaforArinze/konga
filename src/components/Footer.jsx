@@ -22,12 +22,12 @@ const Footer = () => {
                 <div className="support-section">
                     <i className="support-icon"><FaPhoneAlt /></i>
                     <h3>PHONE SUPPORT</h3>
-                    <p><pre>0909 344 2438, 0703 871 0957</pre></p>
+                    <pre>0909 344 2438, 0703 871 0957</pre>
                 </div>
                 <div className="support-section">
                     <i className="support-icon"><IoLogoWhatsapp /></i>
                     <h3>WHATSAPP</h3>
-                    <p><pre>0909 344 2438, 0703 871 0957</pre></p>
+                    <pre>0909 344 2438, 0703 871 0957</pre>
                 </div>
             </div>
             <div className="subscribe-section">

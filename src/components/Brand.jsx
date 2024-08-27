@@ -14,7 +14,7 @@ const Brand = () => {
       <div className='brand-container'>
         <h6 className='travel'><i><MdLuggage /></i>TRAVEL</h6>
         <h5 className='pay'><i><FaWallet /></i>Konga<span>Pay</span></h5>
-        <i className='corp'><FaSmileBeam /></i><h1 className='corporate'>Konga <span>corporate</span></h1>
+        <h1 className='corporate'><i className='corp'><FaSmileBeam /></i>Konga <span>corporate</span></h1>
         <h4 className='health'><i><MdOutlineHealthAndSafety /></i>Konga<span>Health</span></h4>
         <h6 className='logistics'><i><TbTruckDelivery /></i>LOGISTICS</h6>
         <h6 className='groceries'><i><TiShoppingCart /></i>GROCERIES</h6>

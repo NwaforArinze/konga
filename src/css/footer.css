@@ -8,7 +8,7 @@
 
   .footer-top {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     width: 90vw;
     margin: auto;
@@ -51,6 +51,11 @@
   }
   
   .support-section p {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #B5B5B5;
+  }
+  .support-section pre {
     margin-left: 15px;
     font-size: 14px;
     color: #B5B5B5;

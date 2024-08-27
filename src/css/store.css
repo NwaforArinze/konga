@@ -1,0 +1,23 @@
+.store{
+    width: 90vw;
+    margin: 10px auto;
+}
+
+.store-header{
+    text-align: center;
+    background-color: #F5A623;
+    padding: 12px;
+}
+
+.image-contain {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust gap between images if needed */
+}
+  
+.image-contain img {
+    padding: 0 10px;
+    flex: 1 1 calc(100% / 6 - 10px); 
+    max-width: calc(100% / 6 - 10px); 
+}

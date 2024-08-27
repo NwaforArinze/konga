@@ -5,10 +5,12 @@
 
 .brand-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     height: 6vh;
 }
+
 .brand-container h5,
 .brand-container h6 {
     font-size: 14px;
@@ -18,10 +20,9 @@
 
 .corporate{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     font-size: 11px;
     font-weight: bolder;
-    margin-left: -55px;
     color: #ef0180;
 }
 .corporate span{

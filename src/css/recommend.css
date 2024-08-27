@@ -1,0 +1,89 @@
+.recommend {
+    padding: 20px;
+    width: 90vw;
+    margin: auto;
+}
+  
+.recommend-header {
+    display: flex;
+    color: #000;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+  
+.recommend-header h1 {
+    margin-left: 5px;
+}
+  
+  .recommend-header a {
+    text-decoration: none;
+    color: #9c0154;
+  }
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  .deals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+  }
+  
+  .deal-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    height: 160px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .deal-item img {
+    width: 120px;
+    height: 120px;
+    margin: 15px 10px 10px;
+  }
+  
+  .deal-info {
+    padding: 10px;
+    margin-top: 15px;
+  }
+  .deal-info p {
+    margin: 5px 0;
+  }
+  
+  .price-info {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .price-info h4 {
+    font-size: 20px;
+  }
+  
+  .price-info p {
+    margin: 0;
+    text-decoration: line-through;
+    color: #999; 
+  }
+  
+  .price-info h6 {
+    margin: 0;
+    background-color: #ee9dc8;
+    color: #ef0180;
+    padding: 5px 0;
+    border-radius: 8px;
+  }
+
+.saved-amount{
+    color: #33b27b;
+    font-size: 14px;
+    padding-top: 10px;
+}
